@@ -1,6 +1,6 @@
 # Resume
 
-**[📄 View Resume (PDF)](./resume.pdf)** | **[📄 Download Resume](./resume.pdf)**
+**[📄 View Resume (PDF)](./resume.pdf)** | **[📄 View Page](https://dylan-bennett.github.io/resume/)**
 
 ---
 
@@ -16,6 +16,6 @@ This repository contains my professional resume, built with LaTeX for precise fo
 
 ---
 
-_Last Updated: [Date]_
+_Last Updated: [July 18, 2025]_
 
 > Click the PDF link above to view the resume directly in GitHub's built-in PDF viewer, or download for offline viewing.
