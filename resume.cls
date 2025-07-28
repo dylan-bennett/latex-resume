@@ -177,3 +177,52 @@
     \@for\category:=#1\do{\category\\[0.01cm]}%
   \end{tabular}%
 }
+
+% Cover Letter
+%Setup for coverletter
+\newcommand*{\setcompanyname}[1]{\def\@companyname{#1}}
+\newcommand*{\setcontactperson}[1]{\def\@contactperson{#1}}
+\newcommand*{\setpositionname}[1]{\def\@positionname{#1}}
+
+%Coverletter subview
+\newcommand{\companyandposition}{%
+\begin{tabular}{>{\scshape \bfseries \color{\@themecolor}}l  >{\small }l}
+  Company: & \@companyname \\
+  Position: & \@positionname \\
+\end{tabular}%
+}
+
+%Coverletter
+\newcommand{\coverletter}[1]{%
+  % Company and position
+  \companyandposition \\[0.1cm]%
+
+  % Horizontal rule
+  \color{black} \hrulefill \\[0.5cm]%
+
+  % Greeting
+  \textbf{ Dear \@contactperson, \\[0.5cm]}%
+
+  % Body
+  \setlength{\baselineskip}{1.2\baselineskip}%
+  #1 \\[0.5cm]%
+
+  % Signature
+  \textbf{ Sincerely, \\[0.5cm]}%
+  \indent \@firstname\ \@lastname%
+}
+
+%Footnote
+\newcommand{\createfootnote}{%
+  % Footnote styling
+  \renewcommand{\footnotesize}{\fontsize{7pt}{11pt}\selectfont}
+  % \renewcommand{\footnoterule}{\rule{0.3\linewidth}{0.5pt}}
+
+  % Remove footnote numbering
+  \let\thefootnote\relax
+  
+  % Footnote content
+  \footnote{
+    \today\ / \href{https://github.com/dylan-bennett/resume}{source code}
+  }
+}
