@@ -1,21 +1,23 @@
-# Resume
+# Resume & Cover Letter
 
-**[📄 View Resume (PDF)](./resume.pdf)** | **[📄 View Page](https://dylan-bennett.github.io/resume/)**
+**[📄 View Resume (PDF)](./resume.pdf)** | **[📄 View Cover Letter (PDF)](./cover_letter.pdf)** | **[📄 View Page](https://dylan-bennett.github.io/resume/)**
 
 ---
 
 ## About
 
-This repository contains my professional resume, built with LaTeX for precise formatting and professional presentation.
+This repository contains my professional resume and cover letter, built with LaTeX for precise formatting and professional presentation.
 
 ### Quick Access
 
 - **Resume PDF**: [resume.pdf](./resume.pdf)
-- **LaTeX Source**: [resume.tex](./resume.tex)
+- **Resume LaTeX Source**: [resume.tex](./resume.tex)
+- **Cover Letter PDF**: [cover_letter.pdf](./cover_letter.pdf)
+- **Cover Letter LaTeX Source**: [cover_letter.tex](./cover_letter.tex)
 - **Document Class**: [resume.cls](./resume.cls)
 
 ---
 
-_Last Updated: [July 18, 2025]_
+_Last Updated: [July 28, 2025]_
 
-> Click the PDF link above to view the resume directly in GitHub's built-in PDF viewer, or download for offline viewing.
+> Click the PDF links above to view the documents directly in GitHub's built-in PDF viewer, or download for offline viewing.
